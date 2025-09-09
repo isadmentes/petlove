@@ -62,20 +62,20 @@ nav a:hover {
 #about section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 5rem;
 }
 
 #about article {
   padding: 1.9rem;
-  border-radius: 16px;
+  border-radius: 18px;
   font-style: italic;
   color: #141414;
   text-align: center;
 }
 
 #about article img {
-  max-width: 80%;
-  border-radius: 16px;
+  max-width: 95%;
+  border-radius: 18px;
   display: block;
   margin: 0 auto;
 }
