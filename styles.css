@@ -5,22 +5,26 @@ html {
 }
 
 h1 {
-  background-image: url('Imagens/Logo pet-love.png');
-  background-position: center;
+  background-image: url('https://raw.githubusercontent.com/isadmentes/petlove/refs/heads/main/438x100.png');
+  background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 150px;
-  margin: 0;
+  height: 40px;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 h2 {
-  background-image: url('file:///C:/Users/Windows/petlove/petlove/Imagens/Frase.png');
+  background-image: url('https://raw.githubusercontent.com/isadmentes/petlove/refs/heads/main/380x47.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 50px;
+  background-size: contain; 
+  height: 50px; 
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 0;
 }
-
+  
 nav {
   background-color: rgb(34, 69, 121);
   padding: 1rem 0;
@@ -52,7 +56,7 @@ nav a:hover {
 }
 
 #about {
-  padding: 0rem 8rem;
+  padding: 0 8rem;
 }
 
 #about section {
@@ -62,16 +66,16 @@ nav a:hover {
 }
 
 #about article {
-  padding: 1.4rem;
-  border-radius: 10px;
+  padding: 1.9rem;
+  border-radius: 16px;
   font-style: italic;
   color: #141414;
   text-align: center;
 }
 
 #about article img {
-  max-width: 60%;
-  border-radius: 10px;
+  max-width: 80%;
+  border-radius: 16px;
   display: block;
   margin: 0 auto;
 }
@@ -90,14 +94,14 @@ form {
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
-  border-radius: 2px;
+  border-radius: 10px;
   background-color: rgb(34, 69, 121);
 }
 
 fieldset {
   border: 1px solid #dbdedf;
-  border-radius: 2px;
-  padding: 1.5px;
+  border-radius: 10px;
+  padding: 1.5rem;
   margin-bottom: 1rem;
   color: rgb(239, 241, 241);
 }
