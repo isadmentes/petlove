@@ -103,6 +103,13 @@ fieldset {
   color: rgb(239, 241, 241);
 }
 
+textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+
+}
+
 label {
   color: white;
   margin-bottom: 0.5rem;
@@ -113,13 +120,13 @@ label {
 
 button[type="submit"] {
   display: block;
-  width: 80%;
-  padding: 1rem;
-  background-color: #a2e2d8;
+  width: 20%;
+  padding: 0.5rem;
+  background-color: white;
   color: #000000;
   font-weight: bold;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
