@@ -8,6 +8,7 @@ html {
 
 h1 {
   font-family: "Comic Relief", system-ui;
+  text-align: center;
 }
 
 nav {
@@ -54,7 +55,7 @@ nav a:hover {
   gap: 5rem;
 
   @media screen and (max-width: 900px) {
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @media screen and (max-width: 600px) {
